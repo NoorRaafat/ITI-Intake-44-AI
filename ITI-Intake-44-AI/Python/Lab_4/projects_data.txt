@@ -1,0 +1,2 @@
+user_id : 1702450962 : project_id : 1702451095 : title : stem project : details : stem is the important thing  : target_amount : 30000 : start_date : 2023-6-2 : end_date : 2012-5-3
+user_id : 1702425160 : project_id : 1702452992 : title : sss : details : fashoin : target_amount : 23000 : start_date : 2023-4-6 : end_date : 2024-7-8

@@ -1,0 +1,30 @@
+---------------------xml--------------------
+<?xml version="1.0" encoding="UTF-8"?> 
+<students> 
+  <student SID="1"> 
+    <firstName>Sandy</firstName> 
+    <lastName>Guillaumeau</lastName> 
+    <date>1988-04-09</date> 
+  </student> 
+  <student SID=“2"> 
+    <firstName>Quentin</firstName> 
+    <lastName>Decayeux</lastName> 
+    <date>1990-02-01</date> 
+  </student> 
+</students>
+
+-----------------------XSLT---------------------
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+  <xsl:template match="students">
+    firstName,lastName,date
+    <br/>
+      <xsl:for-each select="student"/>
+               <xsl:for-each select="@SID"/>
+               <xsl:value-of select="firstName"/>,
+               <xsl:value-of select="lastName"/>,
+               <xsl:value-of select="date"/><br/>
+      </xsl:for-each>
+  </xsl:template>
+</xsl:stylesheet>

@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1698318189 source:d:\iti\c++\tasks\classtask22\main.cpp
+	<iostream>
+	<string.h>
+
+1699613641 source:d:\iti\c++\tasks\day1\classtask22\main.cpp
+	<iostream>
+	<string.h>
+

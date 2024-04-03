@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1699041154 source:d:\iti\c++\tasks\day5\day5\main.cpp
+	<iostream>
+	<graphics.h>
+	<Windows.h>
+

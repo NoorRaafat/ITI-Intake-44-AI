@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1698316137 source:d:\iti\c++\tasks\structemp\main.cpp
+	<iostream>
+	<string.h>
+
+1698316137 source:d:\iti\c++\tasks\day1\structemp\main.cpp
+	<iostream>
+	<string.h>
+

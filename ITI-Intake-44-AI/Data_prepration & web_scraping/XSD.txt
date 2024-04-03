@@ -1,0 +1,37 @@
+-----------------xml-----------
+<?xml
+version="1.0" encoding="UTF-8"?> 
+<students> 
+<student ID="1">  
+<firstName>Sandy</firstName>   
+<lastName>Guillaumeau</lastName>   
+<date>1988-04-09</date> 
+</student> 
+<student ID=“2">  
+<firstName>Quentin</firstName> 
+<lastName>Decayeux</lastName> 
+<date>1990-02-01</date> 
+</student> 
+</students>
+
+---------------XSD---------------
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <xs:element name="students">
+     <xs:complexType>
+      	<xs:sequence>
+	   <xs:element name="student" maxoccurs="unbounded" minoccurs="3">
+      		  <xs:sequence>
+                  <xs:complexType>
+			<xs:element name="fristname" type="xs:string">
+			<xs:element name="lastname" type="xs:string">
+			<xs:element name="date" type="xs:date">
+		   </xs:sequence>
+                   <xs:attribute name="ID" type="xs:integer">
+		   </xs:complexType>
+            </xs:element>
+         </xs:sequence>
+      </xs:complexType>
+  </xs:element>
+</xs:scheme>	
+	
+</xs:schema>
